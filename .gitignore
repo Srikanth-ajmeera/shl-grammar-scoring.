@@ -1,0 +1,49 @@
+# Python environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Competition data and audio
+data/
+*.wav
+*.mp3
+*.flac
+
+# Generated features and caches
+features/
+checkpoints/
+logs/
+outputs/acoustic_cache/
+outputs/wavlm_cache/
+outputs/transcripts/
+
+# Model artifacts
+*.joblib
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.safetensors
+
+# Private competition submissions and predictions
+submissions/
+outputs/submission*.csv
+outputs/FINAL_BEST*.csv
+outputs/*oof*.csv
+outputs/*predictions*.csv
+outputs/*error*.csv
+
+# Secrets and local configuration
+.env
+.env.*
+*.key
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
